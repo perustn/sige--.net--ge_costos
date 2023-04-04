@@ -1,0 +1,155 @@
+C:\SIGE\_SIGEDebug\GE_Costos.exe.config
+C:\SIGE\_SIGEDebug\GE_Costos.exe
+C:\SIGE\_SIGEDebug\GE_Costos.pdb
+C:\SIGE\_SIGEDebug\GE_Costos.xml
+C:\SIGE\PROYECTOS NET\PROYECTOS TSC\GE_Costos.NET\GE_Costos\obj\Debug\GE_Costos.vbprojResolveAssemblyReference.cache
+C:\SIGE\PROYECTOS NET\PROYECTOS TSC\GE_Costos.NET\GE_Costos\obj\Debug\GE_Costos.frmBusGeneral7.resources
+C:\SIGE\PROYECTOS NET\PROYECTOS TSC\GE_Costos.NET\GE_Costos\obj\Debug\GE_Costos.frmBusGeneral8.resources
+C:\SIGE\PROYECTOS NET\PROYECTOS TSC\GE_Costos.NET\GE_Costos\obj\Debug\GE_Costos.frmBusqGeneral4.resources
+C:\SIGE\PROYECTOS NET\PROYECTOS TSC\GE_Costos.NET\GE_Costos\obj\Debug\GE_Costos.frmBusqGeneral6.resources
+C:\SIGE\PROYECTOS NET\PROYECTOS TSC\GE_Costos.NET\GE_Costos\obj\Debug\GE_Costos.FrmDocumentosPago.resources
+C:\SIGE\PROYECTOS NET\PROYECTOS TSC\GE_Costos.NET\GE_Costos\obj\Debug\GE_Costos.frmDocumentosPago_ActualizaFechaVencimiento.resources
+C:\SIGE\PROYECTOS NET\PROYECTOS TSC\GE_Costos.NET\GE_Costos\obj\Debug\GE_Costos.FrmDocumentosPago_ActualizarTipoCancelacion.resources
+C:\SIGE\PROYECTOS NET\PROYECTOS TSC\GE_Costos.NET\GE_Costos\obj\Debug\GE_Costos.FrmDocumentosPago_Add.resources
+C:\SIGE\PROYECTOS NET\PROYECTOS TSC\GE_Costos.NET\GE_Costos\obj\Debug\GE_Costos.FrmDocumentosPago_AddImportacionesCIF.resources
+C:\SIGE\PROYECTOS NET\PROYECTOS TSC\GE_Costos.NET\GE_Costos\obj\Debug\GE_Costos.FrmDocumentosPago_AddImportacionesCIF_Add.resources
+C:\SIGE\PROYECTOS NET\PROYECTOS TSC\GE_Costos.NET\GE_Costos\obj\Debug\GE_Costos.FrmDocumentosPago_AddImportacionesSinCIF.resources
+C:\SIGE\PROYECTOS NET\PROYECTOS TSC\GE_Costos.NET\GE_Costos\obj\Debug\GE_Costos.FrmDocumentosPago_AddImportacionesSinCIF_Add.resources
+C:\SIGE\PROYECTOS NET\PROYECTOS TSC\GE_Costos.NET\GE_Costos\obj\Debug\GE_Costos.FrmDocumentosPago_AddXML.resources
+C:\SIGE\PROYECTOS NET\PROYECTOS TSC\GE_Costos.NET\GE_Costos\obj\Debug\GE_Costos.FrmDocumentosPago_AplicacionAnticipos.resources
+C:\SIGE\PROYECTOS NET\PROYECTOS TSC\GE_Costos.NET\GE_Costos\obj\Debug\GE_Costos.FrmDocumentosPago_AplicacionAnticiposAdd.resources
+C:\SIGE\PROYECTOS NET\PROYECTOS TSC\GE_Costos.NET\GE_Costos\obj\Debug\GE_Costos.FrmDocumentosPago_AreaResponsable.resources
+C:\SIGE\PROYECTOS NET\PROYECTOS TSC\GE_Costos.NET\GE_Costos\obj\Debug\GE_Costos.FrmDocumentosPago_AsignarGuias.resources
+C:\SIGE\PROYECTOS NET\PROYECTOS TSC\GE_Costos.NET\GE_Costos\obj\Debug\GE_Costos.FrmDocumentosPago_ComisionesVenta.resources
+C:\SIGE\PROYECTOS NET\PROYECTOS TSC\GE_Costos.NET\GE_Costos\obj\Debug\GE_Costos.FrmDocumentosPago_ComisionesVentaAdd.resources
+C:\SIGE\PROYECTOS NET\PROYECTOS TSC\GE_Costos.NET\GE_Costos\obj\Debug\GE_Costos.FrmDocumentosPago_ComisionesVentaMod.resources
+C:\SIGE\PROYECTOS NET\PROYECTOS TSC\GE_Costos.NET\GE_Costos\obj\Debug\GE_Costos.FrmDocumentosPago_DetalleNoDomicilio.resources
+C:\SIGE\PROYECTOS NET\PROYECTOS TSC\GE_Costos.NET\GE_Costos\obj\Debug\GE_Costos.FrmDocumentosPago_DetalleNoDomicilioAdd.resources
+C:\SIGE\PROYECTOS NET\PROYECTOS TSC\GE_Costos.NET\GE_Costos\obj\Debug\GE_Costos.frmDocumentosPago_DetallePagos.resources
+C:\SIGE\PROYECTOS NET\PROYECTOS TSC\GE_Costos.NET\GE_Costos\obj\Debug\GE_Costos.FrmDocumentosPago_Detraccion.resources
+C:\SIGE\PROYECTOS NET\PROYECTOS TSC\GE_Costos.NET\GE_Costos\obj\Debug\GE_Costos.FrmDocumentosPago_DUA.resources
+C:\SIGE\PROYECTOS NET\PROYECTOS TSC\GE_Costos.NET\GE_Costos\obj\Debug\GE_Costos.FrmDocumentosPago_GeneraPasesSofya.resources
+C:\SIGE\PROYECTOS NET\PROYECTOS TSC\GE_Costos.NET\GE_Costos\obj\Debug\GE_Costos.FrmDocumentosPago_Glosa.resources
+C:\SIGE\PROYECTOS NET\PROYECTOS TSC\GE_Costos.NET\GE_Costos\obj\Debug\GE_Costos.FrmDocumentosPago_ImpDocumentoPrevio.resources
+C:\SIGE\PROYECTOS NET\PROYECTOS TSC\GE_Costos.NET\GE_Costos\obj\Debug\GE_Costos.FrmDocumentosPago_ImprimirMasivo.resources
+C:\SIGE\PROYECTOS NET\PROYECTOS TSC\GE_Costos.NET\GE_Costos\obj\Debug\GE_Costos.FrmDocumentosPago_MantConceptoVentas.resources
+C:\SIGE\PROYECTOS NET\PROYECTOS TSC\GE_Costos.NET\GE_Costos\obj\Debug\GE_Costos.FrmDocumentosPago_MantConceptoVentas_Add.resources
+C:\SIGE\PROYECTOS NET\PROYECTOS TSC\GE_Costos.NET\GE_Costos\obj\Debug\GE_Costos.FrmDocumentosPago_MantConceptoVentas_Facturas.resources
+C:\SIGE\PROYECTOS NET\PROYECTOS TSC\GE_Costos.NET\GE_Costos\obj\Debug\GE_Costos.FrmDocumentosPago_MantConceptoVentas_FacturasAdd.resources
+C:\SIGE\PROYECTOS NET\PROYECTOS TSC\GE_Costos.NET\GE_Costos\obj\Debug\GE_Costos.FrmDocumentosPago_ModificarDatos.resources
+C:\SIGE\PROYECTOS NET\PROYECTOS TSC\GE_Costos.NET\GE_Costos\obj\Debug\GE_Costos.FrmDocumentosPago_ModificarImportes.resources
+C:\SIGE\PROYECTOS NET\PROYECTOS TSC\GE_Costos.NET\GE_Costos\obj\Debug\GE_Costos.FrmDocumentosPago_OpcionesNuevas_ImporteSoloSoles.resources
+C:\SIGE\PROYECTOS NET\PROYECTOS TSC\GE_Costos.NET\GE_Costos\obj\Debug\GE_Costos.FrmDocumentosPago_OpcionesNuevas_ModAnoMesReg.resources
+C:\SIGE\PROYECTOS NET\PROYECTOS TSC\GE_Costos.NET\GE_Costos\obj\Debug\GE_Costos.FrmDocumentosPago_OpcionesNuevas_ModImporteSoles.resources
+C:\SIGE\PROYECTOS NET\PROYECTOS TSC\GE_Costos.NET\GE_Costos\obj\Debug\GE_Costos.FrmDocumentosPago_OpcionesNuevas_ModNumero.resources
+C:\SIGE\PROYECTOS NET\PROYECTOS TSC\GE_Costos.NET\GE_Costos\obj\Debug\GE_Costos.FrmDocumentosPago_SeparaCostos.resources
+C:\SIGE\PROYECTOS NET\PROYECTOS TSC\GE_Costos.NET\GE_Costos\obj\Debug\GE_Costos.FrmDocumentosPago_OpcionesNuevas.resources
+C:\SIGE\PROYECTOS NET\PROYECTOS TSC\GE_Costos.NET\GE_Costos\obj\Debug\GE_Costos.FrmDocumentosPago_Voucher.resources
+C:\SIGE\PROYECTOS NET\PROYECTOS TSC\GE_Costos.NET\GE_Costos\obj\Debug\GE_Costos.FrmDocumentosPago_VoucherAdd.resources
+C:\SIGE\PROYECTOS NET\PROYECTOS TSC\GE_Costos.NET\GE_Costos\obj\Debug\GE_Costos.FrmDocumentosPago_VoucherAddLeasing.resources
+C:\SIGE\PROYECTOS NET\PROYECTOS TSC\GE_Costos.NET\GE_Costos\obj\Debug\GE_Costos.FrmGuiasAsociadas_AlmacenesPrimarios.resources
+C:\SIGE\PROYECTOS NET\PROYECTOS TSC\GE_Costos.NET\GE_Costos\obj\Debug\GE_Costos.FrmGuiasAsociadas_AlmacenesPrimarios_AsigGuias.resources
+C:\SIGE\PROYECTOS NET\PROYECTOS TSC\GE_Costos.NET\GE_Costos\obj\Debug\GE_Costos.FrmGuiasAsociadas_AlmacenesPrimarios_Prorrateo.resources
+C:\SIGE\PROYECTOS NET\PROYECTOS TSC\GE_Costos.NET\GE_Costos\obj\Debug\GE_Costos.FrmGuiasAsociadas_CortePrendas.resources
+C:\SIGE\PROYECTOS NET\PROYECTOS TSC\GE_Costos.NET\GE_Costos\obj\Debug\GE_Costos.FrmGuiasAsociadas_CortePrendas_AsigGuias.resources
+C:\SIGE\PROYECTOS NET\PROYECTOS TSC\GE_Costos.NET\GE_Costos\obj\Debug\GE_Costos.FrmGuiasAsociadas_CortePrendas_Modificar.resources
+C:\SIGE\PROYECTOS NET\PROYECTOS TSC\GE_Costos.NET\GE_Costos\obj\Debug\GE_Costos.FrmGuiasAsociadas_Fardos.resources
+C:\SIGE\PROYECTOS NET\PROYECTOS TSC\GE_Costos.NET\GE_Costos\obj\Debug\GE_Costos.FrmGuiasAsociadas_Fardos_AsigGuias.resources
+C:\SIGE\PROYECTOS NET\PROYECTOS TSC\GE_Costos.NET\GE_Costos\obj\Debug\GE_Costos.FrmGuiasAsociadas_Fardos_CostoMateria.resources
+C:\SIGE\PROYECTOS NET\PROYECTOS TSC\GE_Costos.NET\GE_Costos\obj\Debug\GE_Costos.FrmGuiasAsociadas_Hilados.resources
+C:\SIGE\PROYECTOS NET\PROYECTOS TSC\GE_Costos.NET\GE_Costos\obj\Debug\GE_Costos.FrmGuiasAsociadas_Hilados_AsigGuias.resources
+C:\SIGE\PROYECTOS NET\PROYECTOS TSC\GE_Costos.NET\GE_Costos\obj\Debug\GE_Costos.FrmGuiasAsociadas_Hilados_Precios.resources
+C:\SIGE\PROYECTOS NET\PROYECTOS TSC\GE_Costos.NET\GE_Costos\obj\Debug\GE_Costos.FrmGuiasAsociadas_PostTejido.resources
+C:\SIGE\PROYECTOS NET\PROYECTOS TSC\GE_Costos.NET\GE_Costos\obj\Debug\GE_Costos.FrmGuiasAsociadas_PostTejido_AsigGuias.resources
+C:\SIGE\PROYECTOS NET\PROYECTOS TSC\GE_Costos.NET\GE_Costos\obj\Debug\GE_Costos.FrmGuiasAsociadas_PreTenido.resources
+C:\SIGE\PROYECTOS NET\PROYECTOS TSC\GE_Costos.NET\GE_Costos\obj\Debug\GE_Costos.FrmGuiasAsociadas_PreTenido_AsigGuias.resources
+C:\SIGE\PROYECTOS NET\PROYECTOS TSC\GE_Costos.NET\GE_Costos\obj\Debug\GE_Costos.FrmGuiasAsociadas_Tejeduria.resources
+C:\SIGE\PROYECTOS NET\PROYECTOS TSC\GE_Costos.NET\GE_Costos\obj\Debug\GE_Costos.FrmGuiasAsociadas_Tejeduria_AsigGuias.resources
+C:\SIGE\PROYECTOS NET\PROYECTOS TSC\GE_Costos.NET\GE_Costos\obj\Debug\GE_Costos.FrmGuiasAsociadas_Tejeduria_Valorizar.resources
+C:\SIGE\PROYECTOS NET\PROYECTOS TSC\GE_Costos.NET\GE_Costos\obj\Debug\GE_Costos.FrmMantActivoFijo.resources
+C:\SIGE\PROYECTOS NET\PROYECTOS TSC\GE_Costos.NET\GE_Costos\obj\Debug\GE_Costos.FrmMantActivoFijo_ActFijoHistorico.resources
+C:\SIGE\PROYECTOS NET\PROYECTOS TSC\GE_Costos.NET\GE_Costos\obj\Debug\GE_Costos.FrmMantActivoFijo_CalculoDepreciacion.resources
+C:\SIGE\PROYECTOS NET\PROYECTOS TSC\GE_Costos.NET\GE_Costos\obj\Debug\GE_Costos.FrmMantActivoFijo_MAnt.resources
+C:\SIGE\PROYECTOS NET\PROYECTOS TSC\GE_Costos.NET\GE_Costos\obj\Debug\GE_Costos.FrmMantActivoFijo_ModificarFecha.resources
+C:\SIGE\PROYECTOS NET\PROYECTOS TSC\GE_Costos.NET\GE_Costos\obj\Debug\GE_Costos.FrmMantActivoFijo_VariacionActivo.resources
+C:\SIGE\PROYECTOS NET\PROYECTOS TSC\GE_Costos.NET\GE_Costos\obj\Debug\GE_Costos.FrmMantActivoFijo_VariacionActivo_Add.resources
+C:\SIGE\PROYECTOS NET\PROYECTOS TSC\GE_Costos.NET\GE_Costos\obj\Debug\GE_Costos.FrmMantAnexosContables.resources
+C:\SIGE\PROYECTOS NET\PROYECTOS TSC\GE_Costos.NET\GE_Costos\obj\Debug\GE_Costos.FrmMantAnexosContables_BajaProveedor.resources
+C:\SIGE\PROYECTOS NET\PROYECTOS TSC\GE_Costos.NET\GE_Costos\obj\Debug\GE_Costos.FrmMantAnexosContables_BajaProveedor_Mant.resources
+C:\SIGE\PROYECTOS NET\PROYECTOS TSC\GE_Costos.NET\GE_Costos\obj\Debug\GE_Costos.FrmMantAnexosContables_Certificado.resources
+C:\SIGE\PROYECTOS NET\PROYECTOS TSC\GE_Costos.NET\GE_Costos\obj\Debug\GE_Costos.FrmMantAnexosContables_Certificado_Mant.resources
+C:\SIGE\PROYECTOS NET\PROYECTOS TSC\GE_Costos.NET\GE_Costos\obj\Debug\GE_Costos.FrmMantAnexosContables_CuentaCorriente.resources
+C:\SIGE\PROYECTOS NET\PROYECTOS TSC\GE_Costos.NET\GE_Costos\obj\Debug\GE_Costos.FrmMantAnexosContables_CuentaCorriente_Mant.resources
+C:\SIGE\PROYECTOS NET\PROYECTOS TSC\GE_Costos.NET\GE_Costos\obj\Debug\GE_Costos.FrmMantAnexosContables_DatosAdicionales.resources
+C:\SIGE\PROYECTOS NET\PROYECTOS TSC\GE_Costos.NET\GE_Costos\obj\Debug\GE_Costos.FrmMantAnexosContables_EditDetraccion.resources
+C:\SIGE\PROYECTOS NET\PROYECTOS TSC\GE_Costos.NET\GE_Costos\obj\Debug\GE_Costos.FrmMantAnexosContables_EmailPagos.resources
+C:\SIGE\PROYECTOS NET\PROYECTOS TSC\GE_Costos.NET\GE_Costos\obj\Debug\GE_Costos.FrmMantAnexosContables_Impresion.resources
+C:\SIGE\PROYECTOS NET\PROYECTOS TSC\GE_Costos.NET\GE_Costos\obj\Debug\GE_Costos.FrmMantAnexosContables_MantenimientoUbigeo.resources
+C:\SIGE\PROYECTOS NET\PROYECTOS TSC\GE_Costos.NET\GE_Costos\obj\Debug\GE_Costos.FrmMantAnexosContables_Notificacion.resources
+C:\SIGE\PROYECTOS NET\PROYECTOS TSC\GE_Costos.NET\GE_Costos\obj\Debug\GE_Costos.FrmMantAnexosContables_RestriccionPago.resources
+C:\SIGE\PROYECTOS NET\PROYECTOS TSC\GE_Costos.NET\GE_Costos\obj\Debug\GE_Costos.FrmMantAnexosContables_RestriccionPago_Mant.resources
+C:\SIGE\PROYECTOS NET\PROYECTOS TSC\GE_Costos.NET\GE_Costos\obj\Debug\GE_Costos.FrmMantenimientoPaises.resources
+C:\SIGE\PROYECTOS NET\PROYECTOS TSC\GE_Costos.NET\GE_Costos\obj\Debug\GE_Costos._FrmPrincipal.resources
+C:\SIGE\PROYECTOS NET\PROYECTOS TSC\GE_Costos.NET\GE_Costos\obj\Debug\GE_Costos.Resources.resources
+C:\SIGE\PROYECTOS NET\PROYECTOS TSC\GE_Costos.NET\GE_Costos\obj\Debug\GE_Costos._IDE.resources
+C:\SIGE\PROYECTOS NET\PROYECTOS TSC\GE_Costos.NET\GE_Costos\obj\Debug\GE_Costos.vbproj.GenerateResource.Cache
+C:\SIGE\PROYECTOS NET\PROYECTOS TSC\GE_Costos.NET\GE_Costos\obj\Debug\GE_Costos.exe.licenses
+C:\SIGE\PROYECTOS NET\PROYECTOS TSC\GE_Costos.NET\GE_Costos\obj\Debug\GE_Costos.exe
+C:\SIGE\PROYECTOS NET\PROYECTOS TSC\GE_Costos.NET\GE_Costos\obj\Debug\GE_Costos.xml
+C:\SIGE\PROYECTOS NET\PROYECTOS TSC\GE_Costos.NET\GE_Costos\obj\Debug\GE_Costos.pdb
+C:\Users\CVERA\Pictures\GE_Costos.NET\GE_Costos\obj\Debug\GE_Costos.vbprojResolveAssemblyReference.cache
+C:\Users\CVERA\Pictures\GE_Costos.NET\GE_Costos\obj\Debug\GE_Costos.frmBusGeneral7.resources
+C:\Users\CVERA\Pictures\GE_Costos.NET\GE_Costos\obj\Debug\GE_Costos.frmBusGeneral8.resources
+C:\Users\CVERA\Pictures\GE_Costos.NET\GE_Costos\obj\Debug\GE_Costos.frmBusqGeneral4.resources
+C:\Users\CVERA\Pictures\GE_Costos.NET\GE_Costos\obj\Debug\GE_Costos.frmBusqGeneral6.resources
+C:\Users\CVERA\Pictures\GE_Costos.NET\GE_Costos\obj\Debug\GE_Costos.FrmDocumentosPago_AsignarGuias.resources
+C:\Users\CVERA\Pictures\GE_Costos.NET\GE_Costos\obj\Debug\GE_Costos.FrmGuiasAsociadas_AlmacenesPrimarios.resources
+C:\Users\CVERA\Pictures\GE_Costos.NET\GE_Costos\obj\Debug\GE_Costos.FrmGuiasAsociadas_AlmacenesPrimarios_AsigGuias.resources
+C:\Users\CVERA\Pictures\GE_Costos.NET\GE_Costos\obj\Debug\GE_Costos.FrmGuiasAsociadas_AlmacenesPrimarios_Prorrateo.resources
+C:\Users\CVERA\Pictures\GE_Costos.NET\GE_Costos\obj\Debug\GE_Costos.FrmGuiasAsociadas_CortePrendas.resources
+C:\Users\CVERA\Pictures\GE_Costos.NET\GE_Costos\obj\Debug\GE_Costos.FrmGuiasAsociadas_CortePrendas_AsigGuias.resources
+C:\Users\CVERA\Pictures\GE_Costos.NET\GE_Costos\obj\Debug\GE_Costos.FrmGuiasAsociadas_CortePrendas_Modificar.resources
+C:\Users\CVERA\Pictures\GE_Costos.NET\GE_Costos\obj\Debug\GE_Costos.FrmGuiasAsociadas_Fardos.resources
+C:\Users\CVERA\Pictures\GE_Costos.NET\GE_Costos\obj\Debug\GE_Costos.FrmGuiasAsociadas_Fardos_AsigGuias.resources
+C:\Users\CVERA\Pictures\GE_Costos.NET\GE_Costos\obj\Debug\GE_Costos.FrmGuiasAsociadas_Fardos_CostoMateria.resources
+C:\Users\CVERA\Pictures\GE_Costos.NET\GE_Costos\obj\Debug\GE_Costos.FrmGuiasAsociadas_Hilados.resources
+C:\Users\CVERA\Pictures\GE_Costos.NET\GE_Costos\obj\Debug\GE_Costos.FrmGuiasAsociadas_Hilados_AsigGuias.resources
+C:\Users\CVERA\Pictures\GE_Costos.NET\GE_Costos\obj\Debug\GE_Costos.FrmGuiasAsociadas_Hilados_Precios.resources
+C:\Users\CVERA\Pictures\GE_Costos.NET\GE_Costos\obj\Debug\GE_Costos.FrmGuiasAsociadas_PostTejido.resources
+C:\Users\CVERA\Pictures\GE_Costos.NET\GE_Costos\obj\Debug\GE_Costos.FrmGuiasAsociadas_PostTejido_AsigGuias.resources
+C:\Users\CVERA\Pictures\GE_Costos.NET\GE_Costos\obj\Debug\GE_Costos.FrmGuiasAsociadas_PreTenido.resources
+C:\Users\CVERA\Pictures\GE_Costos.NET\GE_Costos\obj\Debug\GE_Costos.FrmGuiasAsociadas_PreTenido_AsigGuias.resources
+C:\Users\CVERA\Pictures\GE_Costos.NET\GE_Costos\obj\Debug\GE_Costos.FrmGuiasAsociadas_Tejeduria.resources
+C:\Users\CVERA\Pictures\GE_Costos.NET\GE_Costos\obj\Debug\GE_Costos.FrmGuiasAsociadas_Tejeduria_AsigGuias.resources
+C:\Users\CVERA\Pictures\GE_Costos.NET\GE_Costos\obj\Debug\GE_Costos.FrmGuiasAsociadas_Tejeduria_Valorizar.resources
+C:\Users\CVERA\Pictures\GE_Costos.NET\GE_Costos\obj\Debug\GE_Costos.FrmMantActivoFijo.resources
+C:\Users\CVERA\Pictures\GE_Costos.NET\GE_Costos\obj\Debug\GE_Costos.FrmMantActivoFijo_ActFijoHistorico.resources
+C:\Users\CVERA\Pictures\GE_Costos.NET\GE_Costos\obj\Debug\GE_Costos.FrmMantActivoFijo_CalculoDepreciacion.resources
+C:\Users\CVERA\Pictures\GE_Costos.NET\GE_Costos\obj\Debug\GE_Costos.FrmMantActivoFijo_MAnt.resources
+C:\Users\CVERA\Pictures\GE_Costos.NET\GE_Costos\obj\Debug\GE_Costos.FrmMantActivoFijo_ModificarFecha.resources
+C:\Users\CVERA\Pictures\GE_Costos.NET\GE_Costos\obj\Debug\GE_Costos.FrmMantActivoFijo_VariacionActivo.resources
+C:\Users\CVERA\Pictures\GE_Costos.NET\GE_Costos\obj\Debug\GE_Costos.FrmMantActivoFijo_VariacionActivo_Add.resources
+C:\Users\CVERA\Pictures\GE_Costos.NET\GE_Costos\obj\Debug\GE_Costos.FrmMantAnexosContables.resources
+C:\Users\CVERA\Pictures\GE_Costos.NET\GE_Costos\obj\Debug\GE_Costos.FrmMantAnexosContables_BajaProveedor.resources
+C:\Users\CVERA\Pictures\GE_Costos.NET\GE_Costos\obj\Debug\GE_Costos.FrmMantAnexosContables_BajaProveedor_Mant.resources
+C:\Users\CVERA\Pictures\GE_Costos.NET\GE_Costos\obj\Debug\GE_Costos.FrmMantAnexosContables_Certificado.resources
+C:\Users\CVERA\Pictures\GE_Costos.NET\GE_Costos\obj\Debug\GE_Costos.FrmMantAnexosContables_Certificado_Mant.resources
+C:\Users\CVERA\Pictures\GE_Costos.NET\GE_Costos\obj\Debug\GE_Costos.FrmMantAnexosContables_CuentaCorriente.resources
+C:\Users\CVERA\Pictures\GE_Costos.NET\GE_Costos\obj\Debug\GE_Costos.FrmMantAnexosContables_CuentaCorriente_Mant.resources
+C:\Users\CVERA\Pictures\GE_Costos.NET\GE_Costos\obj\Debug\GE_Costos.FrmMantAnexosContables_DatosAdicionales.resources
+C:\Users\CVERA\Pictures\GE_Costos.NET\GE_Costos\obj\Debug\GE_Costos.FrmMantAnexosContables_EditDetraccion.resources
+C:\Users\CVERA\Pictures\GE_Costos.NET\GE_Costos\obj\Debug\GE_Costos.FrmMantAnexosContables_EmailPagos.resources
+C:\Users\CVERA\Pictures\GE_Costos.NET\GE_Costos\obj\Debug\GE_Costos.FrmMantAnexosContables_Impresion.resources
+C:\Users\CVERA\Pictures\GE_Costos.NET\GE_Costos\obj\Debug\GE_Costos.FrmMantAnexosContables_MantenimientoUbigeo.resources
+C:\Users\CVERA\Pictures\GE_Costos.NET\GE_Costos\obj\Debug\GE_Costos.FrmMantAnexosContables_Notificacion.resources
+C:\Users\CVERA\Pictures\GE_Costos.NET\GE_Costos\obj\Debug\GE_Costos.FrmMantAnexosContables_RestriccionPago.resources
+C:\Users\CVERA\Pictures\GE_Costos.NET\GE_Costos\obj\Debug\GE_Costos.FrmMantAnexosContables_RestriccionPago_Mant.resources
+C:\Users\CVERA\Pictures\GE_Costos.NET\GE_Costos\obj\Debug\GE_Costos.FrmMantenimientoPaises.resources
+C:\Users\CVERA\Pictures\GE_Costos.NET\GE_Costos\obj\Debug\GE_Costos._FrmPrincipal.resources
+C:\Users\CVERA\Pictures\GE_Costos.NET\GE_Costos\obj\Debug\GE_Costos.Resources.resources
+C:\Users\CVERA\Pictures\GE_Costos.NET\GE_Costos\obj\Debug\GE_Costos._IDE.resources
+C:\Users\CVERA\Pictures\GE_Costos.NET\GE_Costos\obj\Debug\GE_Costos.vbproj.GenerateResource.Cache
+C:\Users\CVERA\Pictures\GE_Costos.NET\GE_Costos\obj\Debug\GE_Costos.exe.licenses
+C:\Users\CVERA\Pictures\GE_Costos.NET\GE_Costos\obj\Debug\GE_Costos.exe
+C:\Users\CVERA\Pictures\GE_Costos.NET\GE_Costos\obj\Debug\GE_Costos.xml
+C:\Users\CVERA\Pictures\GE_Costos.NET\GE_Costos\obj\Debug\GE_Costos.pdb

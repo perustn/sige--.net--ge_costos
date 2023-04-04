@@ -1,0 +1,747 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{642F78FC-A798-41E7-98E1-A8D050EA4D71}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>GE_Costos._FrmPrincipal</StartupObject>
+    <RootNamespace>GE_Costos</RootNamespace>
+    <AssemblyName>GE_Costos</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsFormsWithCustomSubMain</MyType>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <TargetFrameworkProfile />
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>..\..\..\..\..\SIGE\_SIGEDebug\</OutputPath>
+    <DocumentationFile>GE_Costos.xml</DocumentationFile>
+    <NoWarn>41999,42016,42017,42018,42019,42020,42021,42022,42032,42036</NoWarn>
+    <WarningsAsErrors>
+    </WarningsAsErrors>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>C:\_SIGEDebug\</OutputPath>
+    <DocumentationFile>GE_Costos.xml</DocumentationFile>
+    <NoWarn>41999,42016,42017,42018,42019,42020,42021,42022,42032,42036</NoWarn>
+    <WarningsAsErrors>
+    </WarningsAsErrors>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>My Project\app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AutoGenerateBindingRedirects>false</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>SIGEApp_93x128.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Janus.Data.v4, Version=4.0.51.0, Culture=neutral, PublicKeyToken=21d5517571b185bf, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\_SIGEUserControls\Janus.Data.v4.dll</HintPath>
+    </Reference>
+    <Reference Include="Janus.Windows.ButtonBar.v4, Version=4.0.51.0, Culture=neutral, PublicKeyToken=21d5517571b185bf, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\_SIGEUserControls\Janus.Windows.ButtonBar.v4.dll</HintPath>
+    </Reference>
+    <Reference Include="Janus.Windows.CalendarCombo.v4, Version=4.0.51.0, Culture=neutral, PublicKeyToken=21d5517571b185bf, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\_SIGEUserControls\Janus.Windows.CalendarCombo.v4.dll</HintPath>
+    </Reference>
+    <Reference Include="Janus.Windows.Common.v4, Version=4.0.51.0, Culture=neutral, PublicKeyToken=21d5517571b185bf, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\_SIGEUserControls\Janus.Windows.Common.v4.dll</HintPath>
+    </Reference>
+    <Reference Include="Janus.Windows.ExplorerBar.v4, Version=4.0.51.0, Culture=neutral, PublicKeyToken=21d5517571b185bf, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\_SIGEUserControls\Janus.Windows.ExplorerBar.v4.dll</HintPath>
+    </Reference>
+    <Reference Include="Janus.Windows.GridEX.v4, Version=4.0.51.0, Culture=neutral, PublicKeyToken=21d5517571b185bf, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\_SIGEUserControls\Janus.Windows.GridEX.v4.dll</HintPath>
+    </Reference>
+    <Reference Include="Janus.Windows.Ribbon.v4, Version=4.0.51.0, Culture=neutral, PublicKeyToken=21d5517571b185bf, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\_SIGEUserControls\Janus.Windows.Ribbon.v4.dll</HintPath>
+    </Reference>
+    <Reference Include="Janus.Windows.TimeLine.v4, Version=4.0.36.0, Culture=neutral, PublicKeyToken=21d5517571b185bf, processorArchitecture=MSIL" />
+    <Reference Include="Janus.Windows.UI.v4, Version=4.0.51.0, Culture=neutral, PublicKeyToken=21d5517571b185bf, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\_SIGEUserControls\Janus.Windows.UI.v4.dll</HintPath>
+    </Reference>
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+    <Reference Include="ProyectoBase">
+      <HintPath>C:\SIGE\_SIGEUserControls\ProyectoBase.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="WindowsBase" />
+    <Reference Include="WinFormsControls, Version=5.0.6800.22650, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\SIGE\_SIGEDebug\WinFormsControls.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ClsBtnSeguridad.vb" />
+    <Compile Include="clsForm.vb" />
+    <Compile Include="clsHELPER.vb" />
+    <Compile Include="ClsWeight.vb" />
+    <Compile Include="frmBusGeneral7.designer.vb">
+      <DependentUpon>frmBusGeneral7.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmBusGeneral7.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmBusGeneral8.Designer.vb">
+      <DependentUpon>frmBusGeneral8.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmBusGeneral8.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmBusqGeneral4.designer.vb">
+      <DependentUpon>frmBusqGeneral4.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmBusqGeneral4.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmBusqGeneral6.designer.vb">
+      <DependentUpon>frmBusqGeneral6.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmBusqGeneral6.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmDocumentosPago_AsignarGuias.Designer.vb">
+      <DependentUpon>FrmDocumentosPago_AsignarGuias.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmDocumentosPago_AsignarGuias.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmGuiasAsociadas_AlmacenesPrimarios.Designer.vb">
+      <DependentUpon>FrmGuiasAsociadas_AlmacenesPrimarios.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmGuiasAsociadas_AlmacenesPrimarios.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmGuiasAsociadas_AlmacenesPrimarios_AsigGuias.Designer.vb">
+      <DependentUpon>FrmGuiasAsociadas_AlmacenesPrimarios_AsigGuias.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmGuiasAsociadas_AlmacenesPrimarios_AsigGuias.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmGuiasAsociadas_AlmacenesPrimarios_Prorrateo.Designer.vb">
+      <DependentUpon>FrmGuiasAsociadas_AlmacenesPrimarios_Prorrateo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmGuiasAsociadas_AlmacenesPrimarios_Prorrateo.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmGuiasAsociadas_CortePrendas.designer.vb">
+      <DependentUpon>FrmGuiasAsociadas_CortePrendas.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmGuiasAsociadas_CortePrendas.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmGuiasAsociadas_CortePrendas_AsigGuias.designer.vb">
+      <DependentUpon>FrmGuiasAsociadas_CortePrendas_AsigGuias.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmGuiasAsociadas_CortePrendas_AsigGuias.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmGuiasAsociadas_CortePrendas_Modificar.Designer.vb">
+      <DependentUpon>FrmGuiasAsociadas_CortePrendas_Modificar.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmGuiasAsociadas_CortePrendas_Modificar.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmGuiasAsociadas_Fardos.designer.vb">
+      <DependentUpon>FrmGuiasAsociadas_Fardos.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmGuiasAsociadas_Fardos.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmGuiasAsociadas_Fardos_AsigGuias.Designer.vb">
+      <DependentUpon>FrmGuiasAsociadas_Fardos_AsigGuias.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmGuiasAsociadas_Fardos_AsigGuias.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmGuiasAsociadas_Fardos_CostoMateria.Designer.vb">
+      <DependentUpon>FrmGuiasAsociadas_Fardos_CostoMateria.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmGuiasAsociadas_Fardos_CostoMateria.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmGuiasAsociadas_Hilados.designer.vb">
+      <DependentUpon>FrmGuiasAsociadas_Hilados.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmGuiasAsociadas_Hilados.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmGuiasAsociadas_Hilados_AsigGuias.designer.vb">
+      <DependentUpon>FrmGuiasAsociadas_Hilados_AsigGuias.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmGuiasAsociadas_Hilados_AsigGuias.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmGuiasAsociadas_Hilados_Precios.designer.vb">
+      <DependentUpon>FrmGuiasAsociadas_Hilados_Precios.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmGuiasAsociadas_Hilados_Precios.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmGuiasAsociadas_PostTejido.designer.vb">
+      <DependentUpon>FrmGuiasAsociadas_PostTejido.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmGuiasAsociadas_PostTejido.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmGuiasAsociadas_PostTejido_AsigGuias.designer.vb">
+      <DependentUpon>FrmGuiasAsociadas_PostTejido_AsigGuias.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmGuiasAsociadas_PostTejido_AsigGuias.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmGuiasAsociadas_PreTenido.Designer.vb">
+      <DependentUpon>FrmGuiasAsociadas_PreTenido.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmGuiasAsociadas_PreTenido.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmGuiasAsociadas_PreTenido_AsigGuias.Designer.vb">
+      <DependentUpon>FrmGuiasAsociadas_PreTenido_AsigGuias.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmGuiasAsociadas_PreTenido_AsigGuias.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmGuiasAsociadas_Tejeduria.designer.vb">
+      <DependentUpon>FrmGuiasAsociadas_Tejeduria.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmGuiasAsociadas_Tejeduria.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmGuiasAsociadas_Tejeduria_AsigGuias.designer.vb">
+      <DependentUpon>FrmGuiasAsociadas_Tejeduria_AsigGuias.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmGuiasAsociadas_Tejeduria_AsigGuias.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmGuiasAsociadas_Tejeduria_Valorizar.designer.vb">
+      <DependentUpon>FrmGuiasAsociadas_Tejeduria_Valorizar.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmGuiasAsociadas_Tejeduria_Valorizar.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmMantActivoFijo.Designer.vb">
+      <DependentUpon>FrmMantActivoFijo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmMantActivoFijo.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmMantActivoFijo_ActFijoHistorico.Designer.vb">
+      <DependentUpon>FrmMantActivoFijo_ActFijoHistorico.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmMantActivoFijo_ActFijoHistorico.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmMantActivoFijo_CalculoDepreciacion.Designer.vb">
+      <DependentUpon>FrmMantActivoFijo_CalculoDepreciacion.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmMantActivoFijo_CalculoDepreciacion.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmMantActivoFijo_MAnt.Designer.vb">
+      <DependentUpon>FrmMantActivoFijo_MAnt.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmMantActivoFijo_MAnt.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmMantActivoFijo_ModificarFecha.Designer.vb">
+      <DependentUpon>FrmMantActivoFijo_ModificarFecha.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmMantActivoFijo_ModificarFecha.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmMantActivoFijo_VariacionActivo.Designer.vb">
+      <DependentUpon>FrmMantActivoFijo_VariacionActivo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmMantActivoFijo_VariacionActivo.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmMantActivoFijo_VariacionActivo_Add.Designer.vb">
+      <DependentUpon>FrmMantActivoFijo_VariacionActivo_Add.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmMantActivoFijo_VariacionActivo_Add.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmMantAnexosContables.Designer.vb">
+      <DependentUpon>FrmMantAnexosContables.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmMantAnexosContables.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmMantAnexosContables_BajaProveedor.Designer.vb">
+      <DependentUpon>FrmMantAnexosContables_BajaProveedor.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmMantAnexosContables_BajaProveedor.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmMantAnexosContables_BajaProveedor_Mant.Designer.vb">
+      <DependentUpon>FrmMantAnexosContables_BajaProveedor_Mant.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmMantAnexosContables_BajaProveedor_Mant.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmMantAnexosContables_Certificado.Designer.vb">
+      <DependentUpon>FrmMantAnexosContables_Certificado.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmMantAnexosContables_Certificado.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmMantAnexosContables_Certificado_Mant.Designer.vb">
+      <DependentUpon>FrmMantAnexosContables_Certificado_Mant.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmMantAnexosContables_Certificado_Mant.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmMantAnexosContables_CuentaCorriente.Designer.vb">
+      <DependentUpon>FrmMantAnexosContables_CuentaCorriente.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmMantAnexosContables_CuentaCorriente.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmMantAnexosContables_CuentaCorriente_Mant.Designer.vb">
+      <DependentUpon>FrmMantAnexosContables_CuentaCorriente_Mant.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmMantAnexosContables_CuentaCorriente_Mant.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmMantAnexosContables_DatosAdicionales.Designer.vb">
+      <DependentUpon>FrmMantAnexosContables_DatosAdicionales.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmMantAnexosContables_DatosAdicionales.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmMantAnexosContables_EditDetraccion.Designer.vb">
+      <DependentUpon>FrmMantAnexosContables_EditDetraccion.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmMantAnexosContables_EditDetraccion.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmMantAnexosContables_EmailPagos.Designer.vb">
+      <DependentUpon>FrmMantAnexosContables_EmailPagos.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmMantAnexosContables_EmailPagos.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmMantAnexosContables_Impresion.Designer.vb">
+      <DependentUpon>FrmMantAnexosContables_Impresion.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmMantAnexosContables_Impresion.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmMantAnexosContables_MantenimientoUbigeo.designer.vb">
+      <DependentUpon>FrmMantAnexosContables_MantenimientoUbigeo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmMantAnexosContables_MantenimientoUbigeo.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmMantAnexosContables_Notificacion.designer.vb">
+      <DependentUpon>FrmMantAnexosContables_Notificacion.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmMantAnexosContables_Notificacion.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmMantAnexosContables_RestriccionPago.Designer.vb">
+      <DependentUpon>FrmMantAnexosContables_RestriccionPago.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmMantAnexosContables_RestriccionPago.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmMantAnexosContables_RestriccionPago_Mant.Designer.vb">
+      <DependentUpon>FrmMantAnexosContables_RestriccionPago_Mant.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmMantAnexosContables_RestriccionPago_Mant.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmMantenimientoPaises.designer.vb">
+      <DependentUpon>FrmMantenimientoPaises.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmMantenimientoPaises.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ModGeneral.vb" />
+    <Compile Include="ModRutinas.vb" />
+    <Compile Include="_FrmPrincipal.designer.vb">
+      <DependentUpon>_FrmPrincipal.vb</DependentUpon>
+    </Compile>
+    <Compile Include="_FrmPrincipal.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ModConexion.vb" />
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="_IDE.Designer.vb">
+      <DependentUpon>_IDE.vb</DependentUpon>
+    </Compile>
+    <Compile Include="_IDE.vb">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="frmBusGeneral7.resx">
+      <DependentUpon>frmBusGeneral7.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmBusGeneral8.resx">
+      <DependentUpon>frmBusGeneral8.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmBusqGeneral4.resX">
+      <DependentUpon>frmBusqGeneral4.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmBusqGeneral6.resX">
+      <DependentUpon>frmBusqGeneral6.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmDocumentosPago_AsignarGuias.resx">
+      <DependentUpon>FrmDocumentosPago_AsignarGuias.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmGuiasAsociadas_AlmacenesPrimarios.resx">
+      <DependentUpon>FrmGuiasAsociadas_AlmacenesPrimarios.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmGuiasAsociadas_AlmacenesPrimarios_AsigGuias.resx">
+      <DependentUpon>FrmGuiasAsociadas_AlmacenesPrimarios_AsigGuias.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmGuiasAsociadas_AlmacenesPrimarios_Prorrateo.resx">
+      <DependentUpon>FrmGuiasAsociadas_AlmacenesPrimarios_Prorrateo.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmGuiasAsociadas_CortePrendas.resx">
+      <DependentUpon>FrmGuiasAsociadas_CortePrendas.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmGuiasAsociadas_CortePrendas_AsigGuias.resx">
+      <DependentUpon>FrmGuiasAsociadas_CortePrendas_AsigGuias.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmGuiasAsociadas_CortePrendas_Modificar.resx">
+      <DependentUpon>FrmGuiasAsociadas_CortePrendas_Modificar.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmGuiasAsociadas_Fardos.resx">
+      <DependentUpon>FrmGuiasAsociadas_Fardos.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmGuiasAsociadas_Fardos_AsigGuias.resx">
+      <DependentUpon>FrmGuiasAsociadas_Fardos_AsigGuias.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmGuiasAsociadas_Fardos_CostoMateria.resx">
+      <DependentUpon>FrmGuiasAsociadas_Fardos_CostoMateria.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmGuiasAsociadas_Hilados.resx">
+      <DependentUpon>FrmGuiasAsociadas_Hilados.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmGuiasAsociadas_Hilados_AsigGuias.resx">
+      <DependentUpon>FrmGuiasAsociadas_Hilados_AsigGuias.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmGuiasAsociadas_Hilados_Precios.resx">
+      <DependentUpon>FrmGuiasAsociadas_Hilados_Precios.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmGuiasAsociadas_PostTejido.resx">
+      <DependentUpon>FrmGuiasAsociadas_PostTejido.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmGuiasAsociadas_PostTejido_AsigGuias.resx">
+      <DependentUpon>FrmGuiasAsociadas_PostTejido_AsigGuias.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmGuiasAsociadas_PreTenido.resx">
+      <DependentUpon>FrmGuiasAsociadas_PreTenido.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmGuiasAsociadas_PreTenido_AsigGuias.resx">
+      <DependentUpon>FrmGuiasAsociadas_PreTenido_AsigGuias.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmGuiasAsociadas_Tejeduria.resx">
+      <DependentUpon>FrmGuiasAsociadas_Tejeduria.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmGuiasAsociadas_Tejeduria_AsigGuias.resx">
+      <DependentUpon>FrmGuiasAsociadas_Tejeduria_AsigGuias.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmGuiasAsociadas_Tejeduria_Valorizar.resx">
+      <DependentUpon>FrmGuiasAsociadas_Tejeduria_Valorizar.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmMantActivoFijo.resx">
+      <DependentUpon>FrmMantActivoFijo.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmMantActivoFijo_ActFijoHistorico.resx">
+      <DependentUpon>FrmMantActivoFijo_ActFijoHistorico.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmMantActivoFijo_CalculoDepreciacion.resx">
+      <DependentUpon>FrmMantActivoFijo_CalculoDepreciacion.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmMantActivoFijo_MAnt.resx">
+      <DependentUpon>FrmMantActivoFijo_MAnt.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmMantActivoFijo_ModificarFecha.resx">
+      <DependentUpon>FrmMantActivoFijo_ModificarFecha.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmMantActivoFijo_VariacionActivo.resx">
+      <DependentUpon>FrmMantActivoFijo_VariacionActivo.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmMantActivoFijo_VariacionActivo_Add.resx">
+      <DependentUpon>FrmMantActivoFijo_VariacionActivo_Add.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmMantAnexosContables.resx">
+      <DependentUpon>FrmMantAnexosContables.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmMantAnexosContables_BajaProveedor.resx">
+      <DependentUpon>FrmMantAnexosContables_BajaProveedor.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmMantAnexosContables_BajaProveedor_Mant.resx">
+      <DependentUpon>FrmMantAnexosContables_BajaProveedor_Mant.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmMantAnexosContables_Certificado.resx">
+      <DependentUpon>FrmMantAnexosContables_Certificado.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmMantAnexosContables_Certificado_Mant.resx">
+      <DependentUpon>FrmMantAnexosContables_Certificado_Mant.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmMantAnexosContables_CuentaCorriente.resx">
+      <DependentUpon>FrmMantAnexosContables_CuentaCorriente.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmMantAnexosContables_CuentaCorriente_Mant.resx">
+      <DependentUpon>FrmMantAnexosContables_CuentaCorriente_Mant.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmMantAnexosContables_DatosAdicionales.resx">
+      <DependentUpon>FrmMantAnexosContables_DatosAdicionales.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmMantAnexosContables_EditDetraccion.resx">
+      <DependentUpon>FrmMantAnexosContables_EditDetraccion.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmMantAnexosContables_EmailPagos.resx">
+      <DependentUpon>FrmMantAnexosContables_EmailPagos.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmMantAnexosContables_Impresion.resx">
+      <DependentUpon>FrmMantAnexosContables_Impresion.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmMantAnexosContables_MantenimientoUbigeo.resx">
+      <DependentUpon>FrmMantAnexosContables_MantenimientoUbigeo.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmMantAnexosContables_Notificacion.resx">
+      <DependentUpon>FrmMantAnexosContables_Notificacion.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmMantAnexosContables_RestriccionPago.resx">
+      <DependentUpon>FrmMantAnexosContables_RestriccionPago.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmMantAnexosContables_RestriccionPago_Mant.resx">
+      <DependentUpon>FrmMantAnexosContables_RestriccionPago_Mant.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmMantenimientoPaises.resx">
+      <DependentUpon>FrmMantenimientoPaises.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\licenses.licx" />
+    <EmbeddedResource Include="_FrmPrincipal.resX">
+      <DependentUpon>_FrmPrincipal.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="_IDE.resx">
+      <DependentUpon>_IDE.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\app.manifest" />
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ic_search_16x16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ic_critical_zones_warning_16x16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\search_16X16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\new.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\search01_16X16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\new_16x16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\accept_16X16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ic_table_header_edit_48x48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ic_excel_down_48x48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.5">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.5 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\search_02_128x128.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\search_01_128x128.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\delete_16x16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ic_attribute_find_16x16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ic_excel_down_16x16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ic_update_refresh_16x16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ic_table_header_16x16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\info_16X16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Magic-wand-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AGREGAR.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AGREGAR_TODO.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\QUITAR.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\QUITAR_TODO.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\edit_16x16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\291.png" />
+    <Content Include="SIGEApp_93x128.ico" />
+    <None Include="Resources\cancel_16x16.png" />
+    <Content Include="Resources\CirculoAmarillo.png" />
+    <Content Include="Resources\CirculoRojo.png" />
+    <Content Include="Resources\CirculoVerde.png" />
+    <Content Include="Resources\Flag1-green_24x241.png" />
+    <Content Include="Resources\Flag1-orange_24x24.png" />
+    <Content Include="Resources\Flag1-red_24x24.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
