@@ -27,6 +27,7 @@ Partial Class _FrmPrincipal
         Me.ToolTip1 = New System.Windows.Forms.ToolTip(Me.components)
         Me.UiButton2 = New Janus.Windows.EditControls.UIButton()
         Me.UiButton3 = New Janus.Windows.EditControls.UIButton()
+        Me.UiButton1 = New Janus.Windows.EditControls.UIButton()
         Me.SuspendLayout()
         '
         'UiButton2
@@ -45,12 +46,21 @@ Partial Class _FrmPrincipal
         Me.UiButton3.TabIndex = 53
         Me.UiButton3.Text = "ACTIVO FIJO"
         '
+        'UiButton1
+        '
+        Me.UiButton1.Location = New System.Drawing.Point(36, 113)
+        Me.UiButton1.Name = "UiButton1"
+        Me.UiButton1.Size = New System.Drawing.Size(193, 38)
+        Me.UiButton1.TabIndex = 54
+        Me.UiButton1.Text = "Asignacion de Costos Partida"
+        '
         '_FrmPrincipal
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.SystemColors.Control
-        Me.ClientSize = New System.Drawing.Size(299, 158)
+        Me.ClientSize = New System.Drawing.Size(299, 200)
+        Me.Controls.Add(Me.UiButton1)
         Me.Controls.Add(Me.UiButton3)
         Me.Controls.Add(Me.UiButton2)
         Me.Cursor = System.Windows.Forms.Cursors.Default
@@ -67,6 +77,7 @@ Partial Class _FrmPrincipal
     End Sub
     Friend WithEvents UiButton2 As Janus.Windows.EditControls.UIButton
     Friend WithEvents UiButton3 As Janus.Windows.EditControls.UIButton
+    Friend WithEvents UiButton1 As Janus.Windows.EditControls.UIButton
 #End Region
 
 End Class

@@ -147,6 +147,12 @@
     <Compile Include="clsForm.vb" />
     <Compile Include="clsHELPER.vb" />
     <Compile Include="ClsWeight.vb" />
+    <Compile Include="FrmAsignacionCostosPartidaPO.Designer.vb">
+      <DependentUpon>FrmAsignacionCostosPartidaPO.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmAsignacionCostosPartidaPO.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="frmBusGeneral7.designer.vb">
       <DependentUpon>frmBusGeneral7.vb</DependentUpon>
     </Compile>
@@ -462,6 +468,9 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="FrmAsignacionCostosPartidaPO.resx">
+      <DependentUpon>FrmAsignacionCostosPartidaPO.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmBusGeneral7.resx">
       <DependentUpon>frmBusGeneral7.vb</DependentUpon>
     </EmbeddedResource>
