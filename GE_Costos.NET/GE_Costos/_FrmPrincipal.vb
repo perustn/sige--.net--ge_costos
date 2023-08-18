@@ -28,4 +28,10 @@ Friend Class _FrmPrincipal
             frm.ShowDialog()
         End Using
     End Sub
+
+    Private Sub UiButton1_Click(sender As Object, e As EventArgs) Handles UiButton1.Click
+        Using frm As New FrmAsignacionCostosPartidaPO
+            frm.ShowDialog()
+        End Using
+    End Sub
 End Class
