@@ -91,13 +91,16 @@ Public Class clsHELPER
         [NO] = 1
     End Enum
 
-    Function DevuelveDatos(ByVal strSQL As String, ByVal CCONNECT As String) As DataTable
+    Function DevuelveDatos(ByVal strSQL As String, ByVal CCONNECT As String, Optional ByVal consulta_pesada As Boolean = False) As DataTable
         Dim oDa As SqlDataAdapter
         Dim oCn As SqlConnection
 
         Try
             oCn = New SqlConnection(CCONNECT)
             oDa = New SqlDataAdapter(strSQL, CCONNECT)
+            If consulta_pesada Then
+                oDa.SelectCommand.CommandTimeout = 0
+            End If
             Dim oDt As DataTable = New DataTable("HPdata")
             oDa.Fill(oDt)
             DevuelveDatos = oDt

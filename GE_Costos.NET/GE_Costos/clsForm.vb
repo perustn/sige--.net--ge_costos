@@ -153,6 +153,8 @@ Public Class clsForm
                 GetForm = New FrmDocumentosPago_AsignarGuias
             Case "FRMASIGNACIONCOSTOSPARTIDAPO"
                 GetForm = New FrmAsignacionCostosPartidaPO
+            Case "FRMCONSOLIDADOSMENSUALMOVCONFECCIONES"
+                GetForm = New FrmConsolidadosMensualMovConfecciones
         End Select
         Return GetForm
     End Function
