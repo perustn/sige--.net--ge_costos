@@ -8,17 +8,17 @@ Imports System.Runtime.InteropServices
 
 ' Review the values of the assembly attributes
 
-<Assembly: AssemblyTitle("winGEMovil")> 
-<Assembly: AssemblyDescription("")> 
-<Assembly: AssemblyCompany("")>
-<Assembly: AssemblyProduct("winGEPCP")>
-<Assembly: AssemblyCopyright("Copyright ©  2022")>
+<Assembly: AssemblyTitle("GE_Costos")>
+<Assembly: AssemblyDescription("GE_Costos")>
+<Assembly: AssemblyCompany("Southern Textile Network")>
+<Assembly: AssemblyProduct("GE_Costos")>
+<Assembly: AssemblyCopyright("Copyright ©  2024")>
 <Assembly: AssemblyTrademark("")> 
 
 <Assembly: ComVisible(False)>
 
 'The following GUID is for the ID of the typelib if this project is exposed to COM
-<Assembly: Guid("49afb79d-2b1d-4ece-9a2d-8c8c3dd63867")> 
+<Assembly: Guid("49afb79d-2b1d-4ece-9a2d-8c8c3dd63867")>
 
 ' Version information for an assembly consists of the following four values:
 '
@@ -31,5 +31,5 @@ Imports System.Runtime.InteropServices
 ' by using the '*' as shown below:
 ' <Assembly: AssemblyVersion("1.0.*")> 
 
-<Assembly: AssemblyVersion("2022.01.17.1")> 
-<Assembly: AssemblyFileVersion("2022.01.17.1")> 
+<Assembly: AssemblyVersion("2024.09.06.1")>
+<Assembly: AssemblyFileVersion("2024.09.06.1")>

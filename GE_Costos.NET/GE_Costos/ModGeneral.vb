@@ -447,73 +447,73 @@ Module ModGeneral
 
 
 #Region " Convertir Datatable a Recordset "
-    'Function ConvertToRecordset(ByVal inTable As DataTable) As ADODB.Recordset
-    '    Try
-    '        Dim result As New ADODB.Recordset()
-    '        result.CursorLocation = ADODB.CursorLocationEnum.adUseClient
-    '        Dim resultFields As ADODB.Fields = result.Fields
-    '        Dim inColumns As System.Data.DataColumnCollection = inTable.Columns
+    Function ConvertToRecordset(ByVal inTable As DataTable) As ADODB.Recordset
+        Try
+            Dim result As New ADODB.Recordset()
+            result.CursorLocation = ADODB.CursorLocationEnum.adUseClient
+            Dim resultFields As ADODB.Fields = result.Fields
+            Dim inColumns As System.Data.DataColumnCollection = inTable.Columns
 
-    '        For Each inColumn As DataColumn In inColumns
-    '            resultFields.Append(inColumn.ColumnName, TranslateType(inColumn.DataType), inColumn.MaxLength, IIf(inColumn.AllowDBNull, _
-    '                 ADODB.FieldAttributeEnum.adFldIsNullable, ADODB.FieldAttributeEnum.adFldUnspecified), Nothing)
-    '        Next
+            For Each inColumn As DataColumn In inColumns
+                resultFields.Append(inColumn.ColumnName, TranslateType(inColumn.DataType), inColumn.MaxLength, IIf(inColumn.AllowDBNull,
+                     ADODB.FieldAttributeEnum.adFldIsNullable, ADODB.FieldAttributeEnum.adFldUnspecified), Nothing)
+            Next
 
-    '        result.Open(System.Reflection.Missing.Value, System.Reflection.Missing.Value, ADODB.CursorTypeEnum.adOpenStatic, _
-    '                 ADODB.LockTypeEnum.adLockOptimistic, 0)
+            result.Open(System.Reflection.Missing.Value, System.Reflection.Missing.Value, ADODB.CursorTypeEnum.adOpenStatic,
+                     ADODB.LockTypeEnum.adLockOptimistic, 0)
 
-    '        For Each dr As DataRow In inTable.Rows
-    '            result.AddNew(System.Reflection.Missing.Value, System.Reflection.Missing.Value)
-    '            For columnIndex As Integer = 0 To inColumns.Count - 1
-    '                resultFields(columnIndex).Value = dr(columnIndex)
-    '            Next
-    '        Next
-    '        Return result
-    '    Catch xErr As Exception
-    '        Dim result As ADODB.Recordset() = Nothing
-    '        MsgBox(xErr.Message, MsgBoxStyle.Critical)
-    '        Return Nothing
-    '    End Try
-    'End Function
+            For Each dr As DataRow In inTable.Rows
+                result.AddNew(System.Reflection.Missing.Value, System.Reflection.Missing.Value)
+                For columnIndex As Integer = 0 To inColumns.Count - 1
+                    resultFields(columnIndex).Value = dr(columnIndex)
+                Next
+            Next
+            Return result
+        Catch xErr As Exception
+            Dim result As ADODB.Recordset() = Nothing
+            MsgBox(xErr.Message, MsgBoxStyle.Critical)
+            Return Nothing
+        End Try
+    End Function
 
-    'Function TranslateType(ByVal columnType As Type) As ADODB.DataTypeEnum
-    '    Select Case columnType.UnderlyingSystemType.ToString()
-    '        Case "System.Boolean"
-    '            Return ADODB.DataTypeEnum.adBoolean
-    '        Case "System.Byte"
-    '            Return ADODB.DataTypeEnum.adUnsignedTinyInt
-    '        Case "System.Char"
-    '            Return ADODB.DataTypeEnum.adChar
-    '        Case "System.DateTime"
-    '            Return ADODB.DataTypeEnum.adDate
-    '        Case "System.TimeSpan"
-    '            Return ADODB.DataTypeEnum.adDate
-    '        Case "System.Decimal"
-    '            Return ADODB.DataTypeEnum.adCurrency
-    '        Case "System.Double"
-    '            Return ADODB.DataTypeEnum.adDouble
-    '        Case "System.Int16"
-    '            Return ADODB.DataTypeEnum.adSmallInt
-    '        Case "System.Int32"
-    '            Return ADODB.DataTypeEnum.adInteger
-    '        Case "System.Int64"
-    '            Return ADODB.DataTypeEnum.adBigInt
-    '        Case "System.SByte"
-    '            Return ADODB.DataTypeEnum.adTinyInt
-    '        Case "System.Single"
-    '            Return ADODB.DataTypeEnum.adSingle
-    '        Case "System.UInt16"
-    '            Return ADODB.DataTypeEnum.adUnsignedSmallInt
-    '        Case "System.UInt32"
-    '            Return ADODB.DataTypeEnum.adUnsignedInt
-    '        Case "System.UInt64"
-    '            Return ADODB.DataTypeEnum.adUnsignedBigInt
-    '        Case "System.String"
-    '            Return ADODB.DataTypeEnum.adVarChar
-    '        Case Else
-    '            Return ADODB.DataTypeEnum.adVarChar
-    '    End Select
-    'End Function
+    Function TranslateType(ByVal columnType As Type) As ADODB.DataTypeEnum
+        Select Case columnType.UnderlyingSystemType.ToString()
+            Case "System.Boolean"
+                Return ADODB.DataTypeEnum.adBoolean
+            Case "System.Byte"
+                Return ADODB.DataTypeEnum.adUnsignedTinyInt
+            Case "System.Char"
+                Return ADODB.DataTypeEnum.adChar
+            Case "System.DateTime"
+                Return ADODB.DataTypeEnum.adDate
+            Case "System.TimeSpan"
+                Return ADODB.DataTypeEnum.adDate
+            Case "System.Decimal"
+                Return ADODB.DataTypeEnum.adCurrency
+            Case "System.Double"
+                Return ADODB.DataTypeEnum.adDouble
+            Case "System.Int16"
+                Return ADODB.DataTypeEnum.adSmallInt
+            Case "System.Int32"
+                Return ADODB.DataTypeEnum.adInteger
+            Case "System.Int64"
+                Return ADODB.DataTypeEnum.adBigInt
+            Case "System.SByte"
+                Return ADODB.DataTypeEnum.adTinyInt
+            Case "System.Single"
+                Return ADODB.DataTypeEnum.adSingle
+            Case "System.UInt16"
+                Return ADODB.DataTypeEnum.adUnsignedSmallInt
+            Case "System.UInt32"
+                Return ADODB.DataTypeEnum.adUnsignedInt
+            Case "System.UInt64"
+                Return ADODB.DataTypeEnum.adUnsignedBigInt
+            Case "System.String"
+                Return ADODB.DataTypeEnum.adVarChar
+            Case Else
+                Return ADODB.DataTypeEnum.adVarChar
+        End Select
+    End Function
 #End Region
 
     Public Function ComputerName() As String
