@@ -167,6 +167,7 @@ Public Class clsHELPER
     End Function
 
     Function EjecutaOperacion(ByVal strSQL As String, ByVal CCONNECT As String,
+                              Optional ByVal ConsultaPesada As Boolean = False,
                               Optional ByVal opcMetodo As enuMetodo = enuMetodo.Insertar,
                               Optional ByVal opcEjecutaTransaccion As enuEjecutarTransaccion = enuEjecutarTransaccion.SI,
                               Optional ByVal bolSWMostrarMsgDeError As Boolean = True,
@@ -180,6 +181,9 @@ Public Class clsHELPER
             oCn.Open()
             oCmd = New SqlCommand
             With oCmd
+                If ConsultaPesada Then
+                    .CommandTimeout = 0
+                End If
                 .Connection = oCn
                 .CommandType = CommandType.Text
                 .CommandText = strSQL
