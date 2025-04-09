@@ -155,6 +155,8 @@ Public Class clsForm
                 GetForm = New FrmAsignacionCostosPartidaPO
             Case "FRMCONSOLIDADOSMENSUALMOVCONFECCIONES"
                 GetForm = New FrmConsolidadosMensualMovConfecciones
+            Case "FRMKARDEXTEXTILES"
+                GetForm = New frmKardexTextiles
         End Select
         Return GetForm
     End Function
