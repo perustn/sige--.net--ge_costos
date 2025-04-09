@@ -1,6 +1,6 @@
 ﻿Public Class frmKardexTextiles
 
-    Private Cod_Almacen As String
+    Private Cod_Almacen As String = "20"
     Private colEmpresa As Color
 
     Private strSQL As String
@@ -27,7 +27,7 @@
             oo = CreateObject("excel.application")
 
             Select Case Cod_Almacen
-                Case "20" Or "40"
+                Case "20", "40"
                     strSQL = $"select nom_almacen from hi_almacen where cod_Almacen = '{Cod_Almacen}'"
                     Nom_almacen = Cod_Almacen & "-" & oHP.DevuelveDato(strSQL, cCONNECT)
                     Ruta = vRuta & "\Rpt_KardexTextil_Hilado.XLT"
@@ -38,7 +38,7 @@
                     oo.DisplayAlerts = False
                     oo.Run("REPORTE", cCONNECTVB6, Cadena, vRutaLogo, Nom_almacen, dtpAnio.Value.ToString("yyyy"), dtpMes.Value.ToString("MM"))
 
-                Case "30" Or "41"
+                Case "30", "41"
                     strSQL = $"select nom_almacen from hi_almacen where cod_Almacen = '{Cod_Almacen}'"
                     Nom_almacen = Cod_Almacen & "-" & oHP.DevuelveDato(strSQL, cCONNECT)
                     Ruta = vRuta & "\Rpt_KardexTextil_Hilado_Color.XLT"
@@ -104,7 +104,7 @@
                     oo.DisplayAlerts = False
                     oo.Run("REPORTE", cCONNECTVB6, Cadena, vRutaLogo, Nom_almacen, dtpAnio.Value.ToString("yyyy"), dtpMes.Value.ToString("MM"))
             End Select
-            oo.Visible = True
+            'oo.Visible = True
             oo = Nothing
 
         Catch ex As Exception
@@ -129,7 +129,7 @@
             oo = CreateObject("excel.application")
 
             Select Case Cod_Almacen
-                Case "20" Or "40"
+                Case "20", "40"
                     strSQL = $"select nom_almacen from hi_almacen where cod_Almacen = '{Cod_Almacen}'"
                     Nom_almacen = Cod_Almacen & "-" & oHP.DevuelveDato(strSQL, cCONNECT)
                     Ruta = vRuta & "\Rpt_KardexTextil_Hilado.XLT"
@@ -140,7 +140,7 @@
                     oo.DisplayAlerts = False
                     oo.Run("REPORTE", cCONNECTVB6, Cadena, vRutaLogo, Nom_almacen, dtpAnio.Value.ToString("yyyy"), dtpMes.Value.ToString("MM"))
 
-                Case "30" Or "41"
+                Case "30", "41"
                     strSQL = $"select nom_almacen from hi_almacen where cod_Almacen = '{Cod_Almacen}'"
                     Nom_almacen = Cod_Almacen & "-" & oHP.DevuelveDato(strSQL, cCONNECT)
                     Ruta = vRuta & "\Rpt_KardexTextil_Hilado_Color.XLT"
@@ -206,7 +206,7 @@
                     oo.DisplayAlerts = False
                     oo.Run("REPORTE", cCONNECTVB6, Cadena, vRutaLogo, Nom_almacen, dtpAnio.Value.ToString("yyyy"), dtpMes.Value.ToString("MM"))
             End Select
-            oo.Visible = True
+            'oo.Visible = True
             oo = Nothing
 
         Catch ex As Exception

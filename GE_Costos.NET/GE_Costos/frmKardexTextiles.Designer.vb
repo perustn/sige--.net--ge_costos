@@ -24,6 +24,12 @@ Partial Class frmKardexTextiles
     Private Sub InitializeComponent()
         Me.Panel1 = New System.Windows.Forms.Panel()
         Me.UiGroupBox1 = New Janus.Windows.EditControls.UIGroupBox()
+        Me.chkSoloCMT = New Janus.Windows.EditControls.UICheckBox()
+        Me.Panel3 = New System.Windows.Forms.Panel()
+        Me.dtpMes = New Janus.Windows.CalendarCombo.CalendarCombo()
+        Me.dtpAnio = New Janus.Windows.CalendarCombo.CalendarCombo()
+        Me.Label3 = New System.Windows.Forms.Label()
+        Me.Label2 = New System.Windows.Forms.Label()
         Me.rdbTelaTenida = New Janus.Windows.EditControls.UIRadioButton()
         Me.rdbTelaCrudaPreTenido = New Janus.Windows.EditControls.UIRadioButton()
         Me.rdbTelaCrudaTejeduria = New Janus.Windows.EditControls.UIRadioButton()
@@ -37,21 +43,15 @@ Partial Class frmKardexTextiles
         Me.chkSunat = New Janus.Windows.EditControls.UICheckBox()
         Me.Panel2 = New System.Windows.Forms.Panel()
         Me.btnImprimir = New Janus.Windows.EditControls.UIButton()
-        Me.Panel3 = New System.Windows.Forms.Panel()
-        Me.Label2 = New System.Windows.Forms.Label()
-        Me.Label3 = New System.Windows.Forms.Label()
-        Me.dtpAnio = New Janus.Windows.CalendarCombo.CalendarCombo()
-        Me.dtpMes = New Janus.Windows.CalendarCombo.CalendarCombo()
-        Me.chkSoloCMT = New Janus.Windows.EditControls.UICheckBox()
         CType(Me.UiGroupBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.UiGroupBox1.SuspendLayout()
-        Me.Panel2.SuspendLayout()
         Me.Panel3.SuspendLayout()
+        Me.Panel2.SuspendLayout()
         Me.SuspendLayout()
         '
         'Panel1
         '
-        Me.Panel1.BackColor = System.Drawing.Color.Gold
+        Me.Panel1.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(226, Byte), Integer), CType(CType(115, Byte), Integer))
         Me.Panel1.Dock = System.Windows.Forms.DockStyle.Top
         Me.Panel1.Location = New System.Drawing.Point(0, 0)
         Me.Panel1.Name = "Panel1"
@@ -77,6 +77,82 @@ Partial Class frmKardexTextiles
         Me.UiGroupBox1.Size = New System.Drawing.Size(364, 221)
         Me.UiGroupBox1.TabIndex = 1
         Me.UiGroupBox1.VisualStyle = Janus.Windows.UI.Dock.PanelVisualStyle.Office2010
+        '
+        'chkSoloCMT
+        '
+        Me.chkSoloCMT.AutoSize = True
+        Me.chkSoloCMT.Location = New System.Drawing.Point(204, 190)
+        Me.chkSoloCMT.Name = "chkSoloCMT"
+        Me.chkSoloCMT.OfficeColorScheme = Janus.Windows.UI.OfficeColorScheme.Blue
+        Me.chkSoloCMT.Size = New System.Drawing.Size(70, 19)
+        Me.chkSoloCMT.TabIndex = 10
+        Me.chkSoloCMT.Text = "Solo CMT"
+        Me.chkSoloCMT.VisualStyle = Janus.Windows.UI.VisualStyle.Office2003
+        '
+        'Panel3
+        '
+        Me.Panel3.Controls.Add(Me.dtpMes)
+        Me.Panel3.Controls.Add(Me.dtpAnio)
+        Me.Panel3.Controls.Add(Me.Label3)
+        Me.Panel3.Controls.Add(Me.Label2)
+        Me.Panel3.Location = New System.Drawing.Point(204, 17)
+        Me.Panel3.Name = "Panel3"
+        Me.Panel3.Size = New System.Drawing.Size(143, 62)
+        Me.Panel3.TabIndex = 9
+        '
+        'dtpMes
+        '
+        Me.dtpMes.CustomFormat = "MMM"
+        Me.dtpMes.DateFormat = Janus.Windows.CalendarCombo.DateFormat.Custom
+        '
+        '
+        '
+        Me.dtpMes.DropDownCalendar.OfficeColorScheme = Janus.Windows.CalendarCombo.OfficeColorScheme.Blue
+        Me.dtpMes.DropDownCalendar.VisualStyle = Janus.Windows.CalendarCombo.VisualStyle.Office2010
+        Me.dtpMes.Location = New System.Drawing.Point(47, 32)
+        Me.dtpMes.Name = "dtpMes"
+        Me.dtpMes.OfficeColorScheme = Janus.Windows.CalendarCombo.OfficeColorScheme.Blue
+        Me.dtpMes.ShowDropDown = False
+        Me.dtpMes.ShowUpDown = True
+        Me.dtpMes.Size = New System.Drawing.Size(63, 22)
+        Me.dtpMes.TabIndex = 3
+        Me.dtpMes.VisualStyle = Janus.Windows.CalendarCombo.VisualStyle.Office2010
+        '
+        'dtpAnio
+        '
+        Me.dtpAnio.CustomFormat = "yyyy"
+        Me.dtpAnio.DateFormat = Janus.Windows.CalendarCombo.DateFormat.Custom
+        '
+        '
+        '
+        Me.dtpAnio.DropDownCalendar.OfficeColorScheme = Janus.Windows.CalendarCombo.OfficeColorScheme.Blue
+        Me.dtpAnio.DropDownCalendar.VisualStyle = Janus.Windows.CalendarCombo.VisualStyle.Office2010
+        Me.dtpAnio.Location = New System.Drawing.Point(47, 5)
+        Me.dtpAnio.Name = "dtpAnio"
+        Me.dtpAnio.OfficeColorScheme = Janus.Windows.CalendarCombo.OfficeColorScheme.Blue
+        Me.dtpAnio.ShowDropDown = False
+        Me.dtpAnio.ShowUpDown = True
+        Me.dtpAnio.Size = New System.Drawing.Size(63, 22)
+        Me.dtpAnio.TabIndex = 2
+        Me.dtpAnio.VisualStyle = Janus.Windows.CalendarCombo.VisualStyle.Office2010
+        '
+        'Label3
+        '
+        Me.Label3.AutoSize = True
+        Me.Label3.Location = New System.Drawing.Point(11, 36)
+        Me.Label3.Name = "Label3"
+        Me.Label3.Size = New System.Drawing.Size(30, 14)
+        Me.Label3.TabIndex = 1
+        Me.Label3.Text = "Mes"
+        '
+        'Label2
+        '
+        Me.Label2.AutoSize = True
+        Me.Label2.Location = New System.Drawing.Point(11, 9)
+        Me.Label2.Name = "Label2"
+        Me.Label2.Size = New System.Drawing.Size(28, 14)
+        Me.Label2.TabIndex = 0
+        Me.Label2.Text = "Año"
         '
         'rdbTelaTenida
         '
@@ -219,82 +295,6 @@ Partial Class frmKardexTextiles
         Me.btnImprimir.Text = "Imprimir"
         Me.btnImprimir.VisualStyle = Janus.Windows.UI.VisualStyle.Office2010
         '
-        'Panel3
-        '
-        Me.Panel3.Controls.Add(Me.dtpMes)
-        Me.Panel3.Controls.Add(Me.dtpAnio)
-        Me.Panel3.Controls.Add(Me.Label3)
-        Me.Panel3.Controls.Add(Me.Label2)
-        Me.Panel3.Location = New System.Drawing.Point(204, 17)
-        Me.Panel3.Name = "Panel3"
-        Me.Panel3.Size = New System.Drawing.Size(143, 62)
-        Me.Panel3.TabIndex = 9
-        '
-        'Label2
-        '
-        Me.Label2.AutoSize = True
-        Me.Label2.Location = New System.Drawing.Point(11, 9)
-        Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(28, 14)
-        Me.Label2.TabIndex = 0
-        Me.Label2.Text = "Año"
-        '
-        'Label3
-        '
-        Me.Label3.AutoSize = True
-        Me.Label3.Location = New System.Drawing.Point(11, 36)
-        Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(30, 14)
-        Me.Label3.TabIndex = 1
-        Me.Label3.Text = "Mes"
-        '
-        'dtpAnio
-        '
-        Me.dtpAnio.CustomFormat = "yyyy"
-        Me.dtpAnio.DateFormat = Janus.Windows.CalendarCombo.DateFormat.Custom
-        '
-        '
-        '
-        Me.dtpAnio.DropDownCalendar.OfficeColorScheme = Janus.Windows.CalendarCombo.OfficeColorScheme.Blue
-        Me.dtpAnio.DropDownCalendar.VisualStyle = Janus.Windows.CalendarCombo.VisualStyle.Office2010
-        Me.dtpAnio.Location = New System.Drawing.Point(47, 5)
-        Me.dtpAnio.Name = "dtpAnio"
-        Me.dtpAnio.OfficeColorScheme = Janus.Windows.CalendarCombo.OfficeColorScheme.Blue
-        Me.dtpAnio.ShowDropDown = False
-        Me.dtpAnio.ShowUpDown = True
-        Me.dtpAnio.Size = New System.Drawing.Size(63, 22)
-        Me.dtpAnio.TabIndex = 2
-        Me.dtpAnio.VisualStyle = Janus.Windows.CalendarCombo.VisualStyle.Office2010
-        '
-        'dtpMes
-        '
-        Me.dtpMes.CustomFormat = "MMM"
-        Me.dtpMes.DateFormat = Janus.Windows.CalendarCombo.DateFormat.Custom
-        '
-        '
-        '
-        Me.dtpMes.DropDownCalendar.OfficeColorScheme = Janus.Windows.CalendarCombo.OfficeColorScheme.Blue
-        Me.dtpMes.DropDownCalendar.VisualStyle = Janus.Windows.CalendarCombo.VisualStyle.Office2010
-        Me.dtpMes.Location = New System.Drawing.Point(47, 32)
-        Me.dtpMes.Name = "dtpMes"
-        Me.dtpMes.OfficeColorScheme = Janus.Windows.CalendarCombo.OfficeColorScheme.Blue
-        Me.dtpMes.ShowDropDown = False
-        Me.dtpMes.ShowUpDown = True
-        Me.dtpMes.Size = New System.Drawing.Size(63, 22)
-        Me.dtpMes.TabIndex = 3
-        Me.dtpMes.VisualStyle = Janus.Windows.CalendarCombo.VisualStyle.Office2010
-        '
-        'chkSoloCMT
-        '
-        Me.chkSoloCMT.AutoSize = True
-        Me.chkSoloCMT.Location = New System.Drawing.Point(204, 190)
-        Me.chkSoloCMT.Name = "chkSoloCMT"
-        Me.chkSoloCMT.OfficeColorScheme = Janus.Windows.UI.OfficeColorScheme.Blue
-        Me.chkSoloCMT.Size = New System.Drawing.Size(70, 19)
-        Me.chkSoloCMT.TabIndex = 10
-        Me.chkSoloCMT.Text = "Solo CMT"
-        Me.chkSoloCMT.VisualStyle = Janus.Windows.UI.VisualStyle.Office2003
-        '
         'frmKardexTextiles
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 14.0!)
@@ -314,9 +314,9 @@ Partial Class frmKardexTextiles
         Me.Text = "Kardex Textiles"
         CType(Me.UiGroupBox1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.UiGroupBox1.ResumeLayout(False)
-        Me.Panel2.ResumeLayout(False)
         Me.Panel3.ResumeLayout(False)
         Me.Panel3.PerformLayout()
+        Me.Panel2.ResumeLayout(False)
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
